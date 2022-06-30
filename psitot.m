@@ -1,0 +1,3 @@
+function z = psitot(x,y,c1,c2,c3,c4,c5,c6,c7,A)
+z = c1*psi1(x,y)+c2*psi2(x,y)+c3*psi3(x,y)+c4*psi4(x,y)+c5*psi5(x,y)...
+    +c6*psi6(x,y)+c7*psi7(x,y)+A*psipart1(x,y)+(1-A)*psipart2(x,y);
